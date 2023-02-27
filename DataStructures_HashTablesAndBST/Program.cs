@@ -8,8 +8,11 @@ namespace DataStructures_HashTablesAndBST
         {
             Console.WriteLine("Welcome to the DataStructures HashTable and Binary Search Tree");
             //UC1 Ability to find frequency of number in sentence
-            string sentence = "To be or not to be";
-            CountNumbOfOccurence(sentence);
+            //string sentence = "To be or not to be";
+            //CountNumbOfOccurence(sentence);
+            //UC2 Ability to find frequency of words in a large paragraph phrase
+            string phrase = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+            CountNumbOfOccurence(phrase);
         }
         public static void CountNumbOfOccurence(string Paragraph)
         {
