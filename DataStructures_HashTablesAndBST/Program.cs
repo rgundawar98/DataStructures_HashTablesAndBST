@@ -31,6 +31,10 @@ namespace DataStructures_HashTablesAndBST
             }
             Console.WriteLine("Displaying after add operation");
             hashtable.Display();
+            //UC3 Removing avoidable word from phrase
+            hashtable.Remove("avoidable");
+            Console.WriteLine("--------------------------");
+            hashtable.Display();
         }
     }
 }
