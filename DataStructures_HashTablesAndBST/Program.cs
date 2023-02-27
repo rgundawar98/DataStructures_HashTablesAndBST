@@ -11,8 +11,14 @@ namespace DataStructures_HashTablesAndBST
             //string sentence = "To be or not to be";
             //CountNumbOfOccurence(sentence);
             //UC2 Ability to find frequency of words in a large paragraph phrase
-            string phrase = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
-            CountNumbOfOccurence(phrase);
+           // string phrase = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+           // CountNumbOfOccurence(phrase);
+
+            Console.WriteLine("Binary Search Tree");
+            BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>(56);
+            binarySearchTree.Insert(30);
+            binarySearchTree.Insert(70);
+            binarySearchTree.Display();
         }
         public static void CountNumbOfOccurence(string Paragraph)
         {
